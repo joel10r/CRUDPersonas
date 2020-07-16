@@ -89,5 +89,15 @@ namespace CRUDPersonas
             formHijo(new frmBuscar());
             mostrarMenu();
         }
+
+        private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Show();
+        }
+
+        private void ocultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
