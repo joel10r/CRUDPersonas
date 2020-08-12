@@ -43,6 +43,7 @@
             this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ocultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.notifyIcon2 = new System.Windows.Forms.NotifyIcon(this.components);
             this.pnlMenu.SuspendLayout();
             this.pnlSubMenu.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -182,19 +183,19 @@
             this.mostrarToolStripMenuItem,
             this.ocultarToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(116, 48);
             // 
             // mostrarToolStripMenuItem
             // 
             this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
-            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.mostrarToolStripMenuItem.Text = "Mostrar";
             this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // ocultarToolStripMenuItem
             // 
             this.ocultarToolStripMenuItem.Name = "ocultarToolStripMenuItem";
-            this.ocultarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ocultarToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.ocultarToolStripMenuItem.Text = "Ocultar";
             this.ocultarToolStripMenuItem.Click += new System.EventHandler(this.ocultarToolStripMenuItem_Click);
             // 
@@ -204,6 +205,11 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "CRUD Personas";
             this.notifyIcon1.Visible = true;
+            // 
+            // notifyIcon2
+            // 
+            this.notifyIcon2.Text = "notifyIcon2";
+            this.notifyIcon2.Visible = true;
             // 
             // Form1
             // 
@@ -239,6 +245,7 @@
         private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ocultarToolStripMenuItem;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.NotifyIcon notifyIcon2;
     }
 }
 
